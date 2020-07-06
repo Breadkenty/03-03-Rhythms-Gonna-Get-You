@@ -2,6 +2,40 @@
 
 <img src="demo.gif" width="350">
 
+---
+
+This console app integrates databases that keeps track of bands with the following information:
+
+- Band Name
+- Country of Origin
+- Number of Members
+- Band Website
+- Style
+- Signed Status
+- Contact Name
+- Contact Phone Number
+- Albums
+  - Album Title
+  - Explicit
+  - Release Date
+
+The console app has these following features:
+
+- Adding a band
+- Adding an album
+- Delete a band
+- View all bands
+- View all albums by a band
+- Sign/Let a band go
+
+Technologies used:
+
+- C# with the .NET framework
+- Entity Framework
+- PostgreSQL
+
+This project focuses on using C# to store various information in a database created using PostgreSQL. This demonstrates how backend databases are set up where it will eventually be called by a frontend to display data.
+
 # Assignment Overview:
 
 For this project, we will model and create a database. We are starting a record
